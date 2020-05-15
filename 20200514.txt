@@ -1,0 +1,33 @@
+pickle parameter 2개 넣는거
+제 3자에게, web service
+
+get, post 방식 중
+request, get
+
+
+parameter 1, 2
+argument 1,2
+
+git server pickle 로딩 사용방법 알 것임
+png 보고 어떻게 하는지 알기
+
+def home(request): request 두개 내가 지정하기
+name, age -> first, second
+
+requestDict
+result
+-> 없애고 변경
+pickle load
+getPredict(name,age) pickle에서 load한 인스턴스화 한 변수.
+
+
+구글드라이브 url 목록
+구름.iod url 올려야 함. remote server 접근 확인 위함
+제 3자에게 서비스 되는 지 확인하기
+
+pickle 가져올때, pickle 처음 받을때 import 되는 값들 모두 포함시켜야 함.
+dump할때 사용할때 위에 사용했던 import.
+dump 이전의 import 파일들도 그대로 있어야함. 필요함.  
+
+class path
+class 자체를 

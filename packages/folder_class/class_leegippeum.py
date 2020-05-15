@@ -29,6 +29,7 @@
 # a = Class_1()
 # a.calculate()
 
+
 class Class_1:
     def __init__(self,x=0):
         self.x = x
@@ -36,6 +37,7 @@ class Class_1:
         return self.x*2 
 a = Class_1()
 print('y = ', a.calculate())
+
 
 class Class_2:
     def __init__(self, x=0):
@@ -45,10 +47,22 @@ class Class_2:
 b = Class_2()
 print('y = ', b.calculate())
 
+
+# class Class_3:
+#     def __init__(self, x=0):
+#         self.x = x
+#     def calculate(self):
+#         return self.x+(self.x+2)
+# c = Class_3()
+# print('y = ', c.calculate())
+
+
 class Class_3:
-    def __init__(self, x=0):
-        self.x = x
+    def __init__(self, x1=0, x2=2):
+        self.x1 = x1
+        self.x2 = x2
     def calculate(self):
-        return self.x+(self.x+2)
-c = Class_3()
+        self.x2 = self.x1 + 2
+        return self.x1 + self.x2
+c = Class_3(30)
 print('y = ', c.calculate())
